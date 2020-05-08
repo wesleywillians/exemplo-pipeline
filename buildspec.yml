@@ -6,3 +6,6 @@ phases:
   build:
     commands:
       - vendor/bin/phpunit 
+artifacts:
+  files: index.php
+  name: $(date +%Y-%m-%d)
